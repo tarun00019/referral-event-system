@@ -1,10 +1,12 @@
 require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const sequelize = require('./config/db');
 const models = require('./app/models');
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 // ✅ CORS MUST COME BEFORE ROUTES
 app.use(cors({
@@ -36,7 +38,7 @@ app.get('/', (req, res) => {
 const errorMiddleware = require('./app/middlewares/errorMiddleware');
 app.use(errorMiddleware);
 
-const PORT = process.env.PORT || 5000;
+
 
 // ✅ Database Connection & Sync
 sequelize.authenticate()
