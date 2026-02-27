@@ -9,9 +9,14 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ✅ CORS MUST COME BEFORE ROUTES
+const cors = require("cors");
+
 app.use(cors({
-    origin: 'http://localhost:5173',
-    credentials: true
+  origin: [
+    "http://localhost:5173",
+    "https://referral-event-system.netlify.app"
+  ],
+  credentials: true
 }));
 
 app.use(express.json());
