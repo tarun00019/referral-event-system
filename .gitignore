@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Uploaded images
+public/uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Coverage (if used later)
+coverage/

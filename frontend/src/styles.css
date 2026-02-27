@@ -1,0 +1,86 @@
+/* ===== GLOBAL STYLES ===== */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  background-color: #1e293b;
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
+}
+
+.navbar button {
+  background-color: #dc2626;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ===== CARDS ===== */
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* ===== BUTTONS ===== */
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== INPUTS ===== */
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+}
