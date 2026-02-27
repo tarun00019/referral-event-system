@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
-
+const cors = require("cors");
 const sequelize = require('./config/db');
 const models = require('./app/models');
 
@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ✅ CORS MUST COME BEFORE ROUTES
-const cors = require("cors");
+
 
 app.use(cors({
   origin: [
