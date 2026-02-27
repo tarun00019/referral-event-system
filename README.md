@@ -89,5 +89,5 @@ Tables used:
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone <https://referral-event-system.netlify.app/>
 cd referral-system
